@@ -12,7 +12,8 @@
     { "keys": ["ctrl+shift+g", "ctrl+shift+n"], "command": "git_new_branch" },
     { "keys": ["ctrl+shift+g", "ctrl+shift+p"], "command": "git_pull_current_branch" },
     { "keys": ["ctrl+shift+g", "ctrl+shift+q"], "command": "git_quick_commit" },
-    { "keys": ["ctrl+shift+g", "ctrl+shift+r"], "command": "git_reset_hard_head" },
+    // dangerous
+    // { "keys": ["ctrl+shift+g", "ctrl+shift+r"], "command": "git_reset_hard_head" },
     { "keys": ["ctrl+shift+g", "ctrl+shift+s"], "command": "git_status" },
     { "keys": ["ctrl+shift+g", "ctrl+shift+t"], "command": "git_new_tag" },
     { "keys": ["ctrl+shift+g", "ctrl+shift+z"], "command": "git_commit_amend" },
@@ -23,7 +24,8 @@
 
     //Modific - https://github.com/gornostal/Modific
     { "keys": ["ctrl+alt+c"], "command": "show_original_part" },
-    { "keys": ["ctrl+alt+r"], "command": "replace_modified_part" },
+    //using this binding with https://github.com/braindamageinc/SublimeHttpRequester
+    //{ "keys": ["ctrl+alt+r"], "command": "replace_modified_part" },
     //Git plugin does this already
     //{ "keys": ["ctrl+alt+d"], "command": "show_diff" },
     { "keys": ["ctrl+alt+u"], "command": "uncommitted_files" }
